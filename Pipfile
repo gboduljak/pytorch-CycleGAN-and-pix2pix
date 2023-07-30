@@ -11,6 +11,7 @@ visdom = ">=0.1.8.8"
 wandb = "*"
 pytorch-fid = "*"
 torch-fidelity = "*"
+pillow = "*"
 
 [dev-packages]
 

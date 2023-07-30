@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "128842d8c14e2c87877a1e3996eabf3f347bdc7bbbad0fab6ec7cee7125c16a3"
+            "sha256": "71d035b70415b6c91837227b96b9bbfdca78d1a3c710ddf589d18992a6dd00bd"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -358,7 +358,7 @@
                 "sha256:f88a0b92277de8e3ca715a0d79d68dc82807457dae3ab8699c758f07c20b3c51",
                 "sha256:faaf07ea35355b01a35cb442dd950d8f1bb5b040a7787791a535de13db15ed90"
             ],
-            "markers": "python_version >= '3.8'",
+            "index": "pypi",
             "version": "==10.0.0"
         },
         "protobuf": {
@@ -585,7 +585,7 @@
                 "sha256:1e61c37477a1626458e36f7b1d82aa5c9b094fa4802892072e49de9c60c4c926",
                 "sha256:8abb2f1d86890a2dfb989f9a77cfcfd3e47c2a354b01111771326f8aa26e0254"
             ],
-            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2'",
+            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'",
             "version": "==1.16.0"
         },
         "smmap": {
