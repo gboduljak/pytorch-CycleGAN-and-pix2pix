@@ -52,7 +52,6 @@ if __name__ == '__main__':
   # print("seeded")
 
   opt = TrainOptions().parse()   # get training options
-  # seed_everything(42)
   # create a dataset given opt.dataset_mode and other options
   train_dataset = create_dataset(opt)
   train_dataset_without_augmentations = create_train_dataset(opt)
