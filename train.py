@@ -34,9 +34,10 @@ from util.visualizer import Visualizer
 
 # def seed_everything(seed: int):
 #   import os
+#   import random
+
 #   import numpy as np
 #   import torch
-#   import random
 
 #   random.seed(seed)
 #   os.environ['PYTHONHASHSEED'] = str(seed)
@@ -45,7 +46,11 @@ from util.visualizer import Visualizer
 #   torch.cuda.manual_seed(seed)
 #   # torch.mps.manual_seed(seed)
 
+
 if __name__ == '__main__':
+  # seed_everything(42)
+  # print("seeded")
+
   opt = TrainOptions().parse()   # get training options
   # seed_everything(42)
   # create a dataset given opt.dataset_mode and other options
